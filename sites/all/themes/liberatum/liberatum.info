@@ -1,0 +1,45 @@
+name = Liberatum theme
+description = Theme for liberatum website.
+core = 7.x
+base theme = bootstrap
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+;;;;;;;;;;;;;;;;;;;;;
+;; Custom regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[slider]         = 'Slider'
+regions[paged]          = 'Paged content'
+regions[topleftmenu]    = 'Top Left Menu'
+regions[toprightmenu]    = 'Top Right Menu'
+regions[r1c1]           = 'Row 1 column 1'
+regions[r1c2]           = 'Row 1 column 2'
+regions[r1c3]           = 'Row 1 column 3'
+regions[r2c1]           = 'Row 2 column 1'
+regions[r2c2]           = 'Row 2 column 2'
+regions[r2c3]           = 'Row 2 column 3'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = 'bootstrap/css/bootstrap.css'
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'js/main.js'
+scripts[] = 'bootstrap/js/bootstrap.min.js'
